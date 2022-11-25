@@ -1,1 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.screen-wrapper {
+    width: 100vw;
+    height: 100vh;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.otp-container {
+    width: 600px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.otp-input {
+    width: 64px;
+    height: 100px;
+    font-size: 80px;
+    text-align: center;
+    margin: 0 4px;
+}
+.otp-input:focus {
+    outline: none;
+    border: 1px solid #9db8f5;
+}
+.otp-input:not(:placeholder-shown)
+{
+    box-shadow: 0 1px 1px 0 #9db8f5;
+}
+.foot-note {
+    background-color: #eeeeee;
+    color: #999;
+    width: 400px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 8px;
+}
